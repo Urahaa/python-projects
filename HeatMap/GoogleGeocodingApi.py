@@ -3,7 +3,7 @@ import json
 
 from types import SimpleNamespace
 
-API_KEY  = "AIzaSyB8xoaQ2tvLexzFIPbJQ0ttEHNCn1JYoHw"
+API_KEY  = "<SUA_API_KEY>"
 
 def getLocationByPostalCode(address):
     endpoint = "https://maps.googleapis.com/maps/api/geocode/json"
